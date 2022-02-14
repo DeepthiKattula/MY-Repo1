@@ -100,6 +100,8 @@ public class FixBugs {
 			if(arrayList.get(i)==input) {
 				System.out.println("Found the expense " + input + " at " + i + " position");
 			}
+			else {
+				System.out.println("Given Expence is not found in "+i);		}
 		}
 		}
 		private static void sortExpenses(ArrayList<Integer> arrayList) {
